@@ -1,5 +1,4 @@
 numbers_list = list(map(int, input('Please enter numbers \n').split(' ')))
-
 all_even_numbers = []
 
 # loop over list
@@ -13,7 +12,7 @@ for i in numbers_list:
         for eachletter in range(split_word):
             reminder =  eachnumber%10
             eachnumber = int(eachnumber/10)
-            #  letter is even making flag is true else making flag as false and added break
+            # letter is even making flag is true else making flag as false and added break
             if(reminder%2 == 0):
                 iseven = True
             else:
